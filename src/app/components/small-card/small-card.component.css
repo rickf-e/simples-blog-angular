@@ -1,0 +1,39 @@
+.smallCard{
+    border: 1px solid #7e7e7e;
+    width: 700px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.containerSmallCard{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.hr{
+    margin-top: 6px;
+    border-color: rgba(110, 110, 110, 0.5);
+}
+.photo > img{
+    height: 135px;
+    overflow: hidden;
+}
+.smallCard:last-child{
+    color: lime;
+}
+.title{
+    margin-left: .4rem;
+}
+.h1{
+    font-size: 1.9rem;
+    margin-left: .3rem;
+}
+.title > .description {
+    margin-left: .3rem;
+    margin-top: .5rem;
+}
+a{
+    text-decoration: none;
+}
+.hr{
+    display: block;
+}
