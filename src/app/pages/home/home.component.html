@@ -1,14 +1,32 @@
-<header>
+<header class="header">
     <app-menu-bar></app-menu-bar>
 </header>
 <app-menu-title></app-menu-title>
 <div class="articles">
     <div class="main">
-        <app-big-card></app-big-card>
+        <app-big-card photoCover="https://i0.wp.com/www.lacasadeel.net/wp-content/uploads/2021/09/Iron_Man-1.jpg"
+            cardTitle="Novo Homem de Ferro Anunciado"
+            cardDescription="Homem de Ferro 4 é confirmado com o retorno de Robert Downey. O filme substituirá série Armor Wars. Desde que Tony Stark se foi ao final de Vingadoresi, o Universo Cinematográfico da Marvel nunca mais foi o mesmo."
+        ></app-big-card>
     </div>
     <div class="others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card color="lime"></app-small-card>
+        <app-small-card 
+            photoSmallCard="https://legadodamarvel.com.br/wp-content/uploads/2023/05/O-Senhor-das-Estrelas-ira-ganhar-filme-solo-Entenda-o-fim-de-Guardioes-da-Galaxia-legadodamarvel.webp"
+            title="O Senhor das Estrelas irá ganhar filme solo?"
+            description="Guardiões da Galáxia Vol. 3 traz um intrigante desfecho para o Senhor das Estrelas, personagem do astro Chris Pratt - entenda seu futuro."
+        ></app-small-card>
+        <app-small-card 
+            photoSmallCard="https://legadodamarvel.com.br/wp-content/uploads/2023/05/invasao-secreta-revelado-a-duracao-dos-episodios-da-nova-serie-da-marvel-legadodamarvel.webp"
+            title="Invasão Secreta: Revelado a duração dos episódios"
+            description="Novo relatório pode ter entregado o tempo médio dos episódios de Invasão Secreta, mova série da Marvel no Disney Plus que estreia em 21 de junho."
+        ></app-small-card>
+        <app-small-card 
+            photoSmallCard="https://legadodamarvel.com.br/wp-content/uploads/2023/05/Vazam-os-atores-de-Quarteto-Fantastico-e-os-nomes-revoltam-os-fas-da-Marvel-legadodamarvel.webp"
+            title="Elenco de Quarteto Fantástico é escolhido e revolta os fãs"
+            description="Após tanta espera, Marvel finalmente define o elenco do reboot de Quarteto Fantástico e os nomes vazados estão desagradando os fãs."
+        ></app-small-card>
     </div>
+</div>
+<div class="footer">
+    <app-footer></app-footer>
 </div>

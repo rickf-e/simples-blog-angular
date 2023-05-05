@@ -1,0 +1,56 @@
+#footerAll{
+    align-items: center;
+    padding: 6rem 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.icons > ul > li,
+.moreInfo > ul > li {
+    list-style: none;
+}
+.github, .youtube, .facebook{
+    font-size: 70px;
+    transition: .4s;
+    color: rgb(134, 134, 134) !important;
+}
+.github:hover{
+    font-size: 80px;
+    color: rgb(255, 255, 255)!important;
+}
+.youtube:hover{    
+    font-size: 80px;
+    color: rgb(255, 0, 0)!important;
+}
+.facebook:hover{
+    font-size: 80px;
+    color: #1A6ED8!important;
+}
+.icons > .iconsFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icons > .iconsFooter > li {
+    padding: 0 10px;
+}
+.infoRodape > .moreInfo > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.infoRodape > .moreInfo > ul > li {
+    color: white;
+    font-size: 1.2rem;
+    margin: 45px 0 10px;
+    padding: 0 10px;
+}
+.infoRodape > .terms {
+    color: white;
+}
+.infoRodape > .terms > h3 {
+    text-align: center;
+}
+.infoRodape > .terms > p {
+    text-align: center;
+    color: rgba(128, 128, 128, 0.5);
+    margin-top: 8px;
+}

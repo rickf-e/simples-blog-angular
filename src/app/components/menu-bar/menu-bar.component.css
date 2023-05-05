@@ -1,5 +1,5 @@
 .containerMenuBar{
-    margin: 20px 0 10px;
+    margin: 30px 0;
 }
 .containerMenuBar > ul{
     display: flex;
@@ -8,4 +8,9 @@
 .containerMenuBar > ul > li{
     margin-right: 20px;
     list-style: none;
+    color: #CCC;
+}
+ul > hr{
+    margin-right: 20px;
+    border-color: rgba(165, 164, 164, 0.4) 
 }

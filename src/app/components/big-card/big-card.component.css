@@ -2,11 +2,12 @@
     border: 1px solid #7e7e7e;
     width: 400px;
     height: auto;
-
+    background-color: #121212;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding: 10px;
+    color: #CCC;
 }
 .hr{
     margin-top: 6px;

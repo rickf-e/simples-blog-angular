@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px){
+    .containerSmallCard{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

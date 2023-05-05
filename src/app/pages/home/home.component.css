@@ -1,8 +1,15 @@
 .articles{
     display: flex;
     justify-content: center;
+    background-color: #121212;
+    padding: 100px 0 200px;
 }
 header{
     display: flex;
     justify-content: center;
+    background-color: #121212;
+}
+.footer{
+    position: relative;
+    background: rgb(29, 29, 29) !important;
 }

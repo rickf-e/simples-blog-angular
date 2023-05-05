@@ -1,15 +1,17 @@
 .menuTitle{
     color: #CCC;
+    background-color: #121212;
+}
+.menuTitle > h1 {
+    padding: 2rem 0;
 }
 .title{
-    margin: 15px 0;
-    font-size: 10rem;
+    font-size: 7rem;
     display: flex;
     justify-content: center;
     font-family: 'Segoe UI'; 
     text-transform: uppercase;
 }
 .menuTitle > hr {
-    margin: 10px 0 10px;
     border-color: #7e7e7e;
 }
